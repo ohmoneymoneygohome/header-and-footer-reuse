@@ -1,0 +1,156 @@
+body,div,p,h1,h2,h3,h4,span,ul,li{
+  margin: 0px;
+  padding: 0px;
+}
+input,img{
+  vertical-align: middle;
+}
+ul,li{
+  list-style: none;
+}
+a{
+  color: black;
+}
+a:hover{
+  color: black;
+  text-decoration: none;
+}
+.show{
+  display: block;
+}
+.hide{
+  display: none;
+}
+/**********************头部导航**********************/
+
+header{
+  background-color: #141414;
+}
+.bgc-nav{
+  background-color: rgb(20,20,20);
+}
+.width1 {
+  width: 100%;
+}
+.navbar-default {
+  background-color: rgb(20,20,20);
+  border: none;
+}
+.navbar-collapse {
+    padding-right: 0px;
+    padding-left: 0px;}
+.bgc-nav .navbar-default .navbar-nav>li>a{
+  color:#E76B0E;
+  padding-top:20px;
+  padding-bottom: 20px;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+.bgc-nav .navbar-default .navbar-nav>li>a:hover{
+  background-color:#E76B0E;
+  color: #fff;
+  border-radius: 0 5px 0 5px;
+}
+.bgc-nav .navbar-default .navbar-nav>li+li{
+  color:#fff;
+  margin-left: 20px;
+}
+.bgc-nav .navbar-default .navbar-nav .log-in{
+}
+.bgc-nav .navbar-default .navbar-nav .log-in>a{
+  font-size: 0.8em;
+  color:#fff;
+  padding-left: 3px;
+  display: inline-block;
+  padding-top: 20px;
+}
+.bgc-nav .navbar-default .navbar-nav .log-in>a:hover{
+  font-size: 0.8em;
+  color:#E76B0E;
+  padding-top: 20px;
+  background-color: rgb(20,20,20);
+}
+.bgc-nav .navbar-default .navbar-nav .active>a{
+  background-color:#E76B0E;
+  color: #fff;
+  border-radius: 0 5px 0 5px;
+}
+.bgc-nav img{
+  margin-top: -10px;
+}
+.navbar{
+    position: relative;
+    min-height: 50px;
+    margin: 10px 0;
+}
+.news-bg{
+    width: 100%;
+    background-color:#DADADA;
+    position: absolute;
+    top:80px;
+}
+
+.news-nav>li{
+  list-style: none;
+  margin-left:60px;
+  float:left;
+}
+.news-nav>li+li{
+  margin-left:0;
+}
+.news-nav>li>a{
+    display: block;
+    padding:15px 30px;
+  color: #000;
+  text-decoration: none;
+}
+.news-nav>li.active>a{
+  background-color:#E76B0E;
+  color: #fff;
+}
+/**********************************头部结束**********************************/
+
+
+
+/**********************************底部开始**********************************/
+footer{
+  background: #141414;
+  color: #D5D5D5;
+  padding: 60px 0px 15px;
+  font-size: 12px;
+}
+footer a{
+  color: #D5D5D5;
+}
+footer .list-inline{
+  margin-top: 10px;
+}
+footer .list-inline>li+li:before{
+  padding-right: 10px;
+  content: "|"
+}
+footer span{
+  font-size: 20px;
+  color: #E76B0E;
+}
+footer .copyright{
+  color: #A09F9F;
+  padding: 10px 0px;
+  font-size: 13px;
+}
+footer .thumbnail{
+  background: transparent;
+  border: none;
+}
+footer .media-left{vertical-align: middle;}
+footer .thumbnail>img{
+  padding: 4px;
+  background: #fff;
+  border-radius: 3px;
+}
+footer .thumbnail .caption{
+  padding: 10px 0px;
+  white-space: nowrap;
+  text-align: center;
+  color: #A09F9F;
+}
